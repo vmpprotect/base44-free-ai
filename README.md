@@ -1,4 +1,7 @@
-# Setup
+# base44-free-ai
+- using Base44's integration and lack of protection, anyone with an app id and the website can effectively get "free ai"
+
+## Setup
 
 Install dependencies:
 
@@ -18,7 +21,7 @@ The server will start on:
 http://127.0.0.1:8080
 ```
 
-# Example Usage
+## Example Usage
 
 Example using the official OpenAI Python SDK: 
 
@@ -43,7 +46,7 @@ r = client.chat.completions.create(
 print(r.choices[0].message.content)
 ```
 
-# Supported Endpoints
+## Supported Endpoints
 
 * `/v1/chat/completions`
 * `/v1/models`
